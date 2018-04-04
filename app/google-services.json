@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "668425805257",
+    "firebase_url": "https://myrt-27b7a.firebaseio.com",
+    "project_id": "myrt-27b7a",
+    "storage_bucket": "myrt-27b7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668425805257:android:ed7c44e893d5ef5f",
+        "android_client_info": {
+          "package_name": "com.dark.amarel.myrt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668425805257-9g6d4gg32kmura0smvcd7g7kkfs2tdnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dark.amarel.myrt",
+            "certificate_hash": "6221eeee800b5c9aadc8faa8d6b0476a5e6ef202"
+          }
+        },
+        {
+          "client_id": "668425805257-u4u984vfohj9bd2k334egulq7vbqp919.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJFeYdYMI1byR8WoOGpz1z-MHp3J8vpLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668425805257-u4u984vfohj9bd2k334egulq7vbqp919.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

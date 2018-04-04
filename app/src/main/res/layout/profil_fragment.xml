@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D8CAC7"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sentuh Kamera Untuk memilih Foto Profile"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <ImageView
+        android:id="@+id/IvPicture"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_style"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/EtDesa"
+        style="@style/editText2_style"
+        android:hint="Nama Desa"
+
+
+        />
+    <EditText
+        android:id="@+id/EtKetua"
+        style="@style/editText2_style"
+        android:hint="Nama Ketua RT"
+
+        />
+    <EditText
+        android:id="@+id/EtRt"
+        style="@style/editText2_style"
+        android:hint="Nama RT"
+        />
+    <Button
+        android:id="@+id/BtnSave"
+        style="@style/button_style"
+        android:layout_marginTop="10dp"
+        android:text="SAVE"/>
+
+</RelativeLayout>
